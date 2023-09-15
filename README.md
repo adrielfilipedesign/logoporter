@@ -1,4 +1,4 @@
-![alt text](https://github.com/Adriel-Filipe/ez-exporter/blob/main/public/capa_ez.png)
+
 
 # About Logoporter
 Batch export logos in RGB and CMYK color spaces in various extensions using [Inkporter](https://github.com/raniaamina/inkporter), [Inkscape CLI](https://inkscape.org) and [Scribus](https://www.scribus.net/).
