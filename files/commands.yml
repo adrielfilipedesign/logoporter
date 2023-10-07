@@ -1,0 +1,20 @@
+unix:
+    #folders
+    tempFolder: ./temp/
+    
+    #inkscape
+    exportFormat: 
+        PDF: " --export-type=pdf"
+        SVG: " --export-type=svg"
+    exportParams: 
+        PAGES: " --pages=" 
+        FILENAME: " --export-filename="
+    
+    #grep
+    getNamePage: 
+    - "pdftk "
+    - " dump_data"
+    - " output"
+
+#inkscape pag1.pdf --export-type=svg
+#pdftk logo.pdf dump_data output info.txt
