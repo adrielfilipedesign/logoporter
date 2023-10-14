@@ -6,15 +6,9 @@ unix:
     exportFormat: 
         PDF: " --export-type=pdf"
         SVG: " --export-type=svg"
+        PNG: " --export-type=png"
+        JPG: " --export-type=jpg"
+        EPS: " --export-type=eps"
     exportParams: 
         PAGES: " --pages=" 
         FILENAME: " --export-filename="
-    
-    #grep
-    getNamePage: 
-    - "pdftk "
-    - " dump_data"
-    - " output"
-
-#inkscape pag1.pdf --export-type=svg
-#pdftk logo.pdf dump_data output info.txt

@@ -1,0 +1,5 @@
+sys: unix
+#for inkscape flatpak change 'apt' to 'flatpak'
+inkscapeVer: apt
+rgbExt: [PNG, JPG, SVG, EPS, PDF]
+cmykExt: [JPG, EPS, PDF]
