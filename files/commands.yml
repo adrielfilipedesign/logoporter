@@ -1,6 +1,6 @@
 unix:
     #folders
-    tempFolder: ./temp/
+    tempFolder: "./temp/"
     
     #inkscape
     exportFormat: 
@@ -9,6 +9,10 @@ unix:
         PNG: " --export-type=png"
         JPG: " --export-type=jpg"
         EPS: " --export-type=eps"
+    
     exportParams: 
         PAGES: " --pages=" 
         FILENAME: " --export-filename="
+
+    #char
+    slash: "/"

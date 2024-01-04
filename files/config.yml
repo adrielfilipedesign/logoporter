@@ -1,5 +1,13 @@
 sys: unix
 #for inkscape flatpak change 'apt' to 'flatpak'
-inkscapeVer: apt
-rgbExt: [PNG, JPG, SVG, EPS, PDF]
+inkscapeVer: flatpak
+
+#Color profiles and file extensions
+#for export .JPG you can use Image Magick
+rgbExt: [PNG, SVG, EPS, PDF]
 cmykExt: [JPG, EPS, PDF]
+
+#Background colors
+jpgBgColor: white
+jpgBgPositive: white
+jpgBgNegative: black
